@@ -1,5 +1,4 @@
-# MetaMask Plugin [![Build Status](https://circleci.com/gh/MetaMask/metamask-plugin.svg?style=shield&circle-token=a1ddcf3cd38e29267f254c9c59d556d513e3a1fd)](https://circleci.com/gh/MetaMask/metamask-plugin)
-
+# metamask-crx
 ## Developing Compatible Dapps
 
 If you're a web dapp developer, we've got two types of guides for you:
@@ -8,7 +7,6 @@ If you're a web dapp developer, we've got two types of guides for you:
 - If you have a Dapp, and you want to ensure compatibility, [here is our guide on building MetaMask-compatible Dapps](https://github.com/MetaMask/faq/blob/master/DEVELOPERS.md)
 
 ## Building locally
-
  - Install [Node.js](https://nodejs.org/en/) version 6.3.1 or later.
  - Install local dependencies with `npm install`.
  - Install gulp globally with `npm install -g gulp-cli`.
