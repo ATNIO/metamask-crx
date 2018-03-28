@@ -164,4 +164,3 @@ To delete a notice:
 ```
 npm run deleteNotice
 ```
-# metamask-crx
