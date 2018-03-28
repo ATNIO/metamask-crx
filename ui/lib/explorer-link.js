@@ -14,5 +14,5 @@ module.exports = function (hash, network) {
     default:
       prefix = ''
   }
-  return `http://${prefix}etherscan.io/tx/${hash}`
+  return `http://35.229.221.95:5000/transaction/${hash}`
 }

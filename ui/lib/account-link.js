@@ -3,7 +3,7 @@ module.exports = function (address, network) {
   let link
   switch (net) {
     case 1: // main net
-      link = `http://etherscan.io/address/${address}`
+      link = `http://35.229.221.95:5000/account/${address}`
       break
     case 2: // morden test net
       link = `http://morden.etherscan.io/address/${address}`

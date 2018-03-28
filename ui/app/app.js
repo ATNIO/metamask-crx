@@ -247,7 +247,7 @@ App.prototype.renderNetworkDropdown = function () {
     }),
 
     h(DropMenuItem, {
-      label: 'Ropsten Test Network',
+      label: 'Consortium Test Network',
       closeMenu: () => this.setState({ isNetworkMenuOpen: false }),
       action: () => props.dispatch(actions.setProviderType('testnet')),
       icon: h('.menu-icon.red-dot'),

@@ -35,10 +35,10 @@ Network.prototype.render = function () {
     hoverText = 'Main Ethereum Network'
     iconName = 'ethereum-network'
   } else if (providerName === 'testnet') {
-    hoverText = 'Ropsten Test Network'
+    hoverText = 'Consortium Test Network'
     iconName = 'ropsten-test-network'
   } else if (parseInt(networkNumber) === 3) {
-    hoverText = 'Ropsten Test Network'
+    hoverText = 'Consortium Test Network'
     iconName = 'ropsten-test-network'
   } else if (providerName === 'kovan') {
     hoverText = 'Kovan Test Network'

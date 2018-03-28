@@ -3,7 +3,7 @@ var linkGen = require('../../ui/lib/explorer-link')
 
 describe('explorer-link', function() {
 
-  it('adds ropsten prefix to ropsten test network', function() {
+  it('adds ropsten prefix to Consortium Test Network', function() {
     var result = linkGen('hash', '3')
     assert.notEqual(result.indexOf('ropsten'), -1, 'ropsten injected')
   })

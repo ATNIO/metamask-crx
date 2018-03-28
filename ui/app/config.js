@@ -158,7 +158,7 @@ function currentProviderDisplay (metamaskState) {
 
     case 'testnet':
       title = 'Current Network'
-      value = 'Ropsten Test Network'
+      value = 'Consortium Test Network'
       break
 
     case 'kovan':
